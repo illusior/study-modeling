@@ -1,0 +1,73 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+
+  // TODO: move to eslint.config.js with new flat configs, for now this is unsupported
+  // ESlint
+  "eslint.enable": true,
+  "eslint.format.enable": true,
+  "eslint.options": {
+    "overrideConfigFile": "./.configs/.eslintrc.cjs"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+
+  // CodeSpell
+  "cSpell.allowCompoundWords": true,
+  "cSpell.ignorePaths": [
+    ".vscode/*",
+    "node_modules",
+    "package.json",
+    "pnpm-lock.yaml",
+    "dist",
+  ],
+  "cSpell.customDictionaries": {
+    "customWords": {
+      "name": "customWords",
+      "path": "${workspaceRoot}/.configs/.cSpellWords.txt",
+      "description": "Words used in this project",
+      "addWords": true
+    },
+  },
+  "cSpell.dictionaries": [
+    "companies",
+    "css",
+    "customWords",
+    "html",
+    "misc",
+    "node",
+    "npm",
+    "softwareTerms",
+    "typescript"
+  ],
+  "cSpell.language": "en,ru,ru-RU,en-US",
+
+  // Stylelint
+  "stylelint.configFile": "./.configs/.stylelintrc.json",
+  "stylelint.packageManager": "pnpm",
+  "stylelint.snippet": [
+    "css",
+    "scss",
+  ],
+  "stylelint.validate": [
+    "css",
+    "scss",
+  ],
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+
+  // Trailing Spaces
+  "trailing-spaces.trimOnSave": true,
+
+  // TypeScript
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+}

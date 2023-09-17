@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "ahmadalli.vscode-nginx-conf",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "gruntfuggly.todo-tree",
+        "kisstkondoros.vscode-codemetrics",
+        "ms-vscode.vscode-typescript-next",
+        "streetsidesoftware.code-spell-checker-russian",
+        "streetsidesoftware.code-spell-checker",
+        "stylelint.vscode-stylelint",
+        "wix.vscode-import-cost",
+        "yoavbls.pretty-ts-errors",
+    ]
+}
